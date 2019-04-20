@@ -1,0 +1,227 @@
+
+.buyProduct{
+	padding:50px 0 50px 0;
+	width:90%;
+	margin:0 auto;
+	overflow:hidden;
+	color:rgb(153,153,153);
+}
+.buy_productImg{
+	float:left;
+	width:402px;
+	height:564px;
+}
+.buy_productImg a{
+	left:80px;
+	width:20px;
+	height: 20px;
+	position: absolute;
+}
+.buy_productImg img{
+	width:400px;
+	height:500px;
+	background-repeat: no-repeat;
+}
+.buy_float_change{
+	left:500px;
+	top:364px;
+	width:100px;
+	height:100px;
+	position:absolute;
+	overflow: hidden;
+}
+.buy_float_change img{
+	width:100px;
+	height:100px;
+}
+.buy_float{
+	display: none;
+}
+.buy_productMessage{
+	margin-left:25px;
+	width:542px;
+	float:left;
+}
+.product_price{
+	margin-top:15px;
+	width:100%;
+	height:40px;
+	background:rgb(245,245,245);
+	line-height:40px;
+	color:rgb(153,153,153);
+}
+.product_price span{
+	font-size:25px;
+	font-weight:900;
+	color:rgb(239,47,35);
+}
+.buy_productMessage p a{
+	color:gray;
+}
+.buy_productMessage p a:HOVER{
+	color:rgb(255,51,102);
+}
+.buy_productMessage p span{
+	color:black;
+	font-size:13px;
+}
+.product_color input{
+	width:40px;
+	height:30px;
+	background:white;
+	border:1px solid gray;	
+}
+.product_color input:HOVER{
+	background: rgb(245,245,245);
+}
+.product_size input{
+	width:38px;
+	height:30px;
+	background:white;
+	border:1px solid gray;
+}
+.product_size input:HOVER{
+	background: rgb(245,245,245);
+}
+.product_number{
+	margin-top:25px;
+	overflow:hidden;
+	height:30px;
+}
+.number_number{
+	float:left;
+}
+.number_input1 input{
+	width:26px;
+	height:27px;
+	background:white;
+	border:1px solid gray;
+	float:left;
+	margin-left:10px;
+	clern:none;
+}
+.number_input2 input{
+	width:40px;
+	height:25px;
+	background:white;
+	border:1px solid gray;
+	float:left;
+	text-align:center;
+}
+.number_input3 input{
+	width:26px;
+	height:27px;
+	background:white;
+	border:1px solid gray;
+	float:left;
+}
+.product_collect a{
+	width:70px;
+	height:26px;
+	color:gray;
+	border-radius:15px;
+	border:1px solid black;
+	display: block;
+}
+.product_collect a:HOVER{
+	color:gray;
+	border:1px solid red;
+}
+.product_collect img{
+	vertical-align:middle;
+}
+.product_collect
+.buy{
+	margin:20px;
+}
+.buy input:HOVER{
+	box-shadow: 0 0 10px 0 gray;
+}
+.buy_input1{
+	width:202px;
+	height:52px;
+	background:rgb(239,47,35);
+	border:0px solid rgb(239,47,35);
+	color:white;
+	font-size:20px;
+}
+.buy_input2{
+	width:202px;
+	height:52px;
+	background:white;
+	border:1px solid gray;
+	color:black;
+	font-size:20px;
+}
+.buy .go_buy{
+	display:none; 
+}
+.buy .go_buy_change{
+	width:500px;
+	height:135px;
+	background: white;
+	border:1px solid gray;
+	z-index: 1;
+	text-align: center;
+	top:250px;
+	left:30%;
+	position:fixed;
+}
+.service_commit{
+	height:30px;
+	overflow:hidden;
+	font-size:13px;
+	margin-top:40px;
+	line-height:30px;
+	padding-right:6%;
+}
+.service_commit img{
+	vertical-align:middle;
+}
+.service_commit ul{
+	float:right;
+}.service_commit ul li{
+	line-height:30px;
+	float:left;
+	margin-left:15px;
+}
+.pay_type{
+	height:30px;
+	margin-top:25px;
+	font-size:10px;
+	line-height:30px;
+}
+.pay_type ul{
+	float:right;
+	margin-right:350px;
+}
+.pay_type ul li{
+	margin-left:8px;
+	float:left;
+}
+.buy_recommend{
+	width:142px;
+	margin-left:90px;
+	float:right;
+}
+.buy_recommend hr{
+	width:1;
+	color:rgb(238,238,238);
+	float:left;
+}
+.recommend_product{
+	margin-left:20px;
+	color:rgb(153,153,153);
+	text-align:center;
+}
+.recommend_product ul{
+	list-style:none;
+}
+.recommend_product ul li{
+	width:140px;
+	height:180px;
+}
+.recommend_product ul li img{
+	width:100%;
+	height:120px;
+}

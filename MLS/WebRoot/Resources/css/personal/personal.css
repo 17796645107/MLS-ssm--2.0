@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	min-width:1340px;
+}
+.personal{
+	padding:30px 75px 75px 75px;
+	overflow: hidden;
+}
+.personal .iframe_nav{
+	width:10%;
+	background: rgb(250,250,250);
+	border: 1px solid rgb(238,238,238);
+	padding:20px 4% 30px 4%;
+	float:left;
+	text-align: center;
+}
+.personal .iframe_nav ul{
+	list-style: none;
+	margin-top:25px;
+}
+.personal .iframe_nav ul li{
+	height:30px;
+}
+.personal .iframe_nav ul li a{
+	text-decoration: none;
+	color:gray;
+	font-size: 13px;
+}
+.personal .iframe_nav ul li a:HOVER{
+	color:rgb(255,51,102);
+}
+.personal .iframe_nav hr{
+	width:100%;
+}
+.personal .iframe_main{
+	width:80%;
+	height:100%;
+	float:right;
+	border: 1px solid rgb(238,238,238);
+}
+.personal .iframe_main iframe{
+	width:100%;
+	height:100%;
+	border:0;
+}

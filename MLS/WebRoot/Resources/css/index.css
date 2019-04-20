@@ -1,0 +1,161 @@
+@charset "utf-8";
+#container { 
+	width:1200px; 
+	height: 454px; 
+	overflow: hidden; 
+	position: relative;
+	margin: 0 auto;
+}
+#list { 
+	width:7200px; 
+	height: 454px; 
+	position: absolute; 
+	z-index: 1;
+}
+#list img { 
+	float: left;
+	width:1200px;
+}
+#buttons { 
+	position: absolute; 
+	height: 10px; 
+	width: 100px; 
+	z-index: 2; bottom: 20px; 
+	left: 670px;
+	margin:0 auto;
+}
+#buttons span { 	
+	cursor: pointer; 
+	float: left; 
+	border: 1px solid #fff; 
+	width: 10px; 
+	height: 10px; 
+	border-radius: 50%; 
+	background: #333; 				 		
+	margin-right: 5px;
+}
+#buttons .on {  
+	background: orangered;
+}
+.arrow { 
+	cursor: pointer; 
+	display: none; 
+	line-height: 39px; 
+	text-align: center; 
+	font-size: 36px; 
+	font-weight: bold; 
+	width: 40px;
+	height: 40px;  
+	position: absolute; 
+	z-index: 2; 
+	top: 180px; 
+	background-color: RGBA(0,0,0,.3); 
+	color: #fff;
+}
+.arrow:hover { 
+	background-color: RGBA(0,0,0,.7);
+}
+#container:hover .arrow { 
+	display: block;
+}
+#prev { 
+	left: 20px;
+}
+#next { 
+	right: 20px;
+}
+/* 广告轮播图 */
+div.ad{
+	padding-top:20px;
+	margin:0 auto;
+	width:80%;
+	overflow: hidden;
+}
+div.ad div.inner{
+	width: 3600px;
+	animation: run 12s ease-in-out infinite;
+}
+@keyframes run{
+	0%,40%{
+		transform: translateX(0);
+	}
+	50%,90%{
+		transform: translateX(-1200px)
+	}
+	100%{
+		transform: translateX(-2400PX);
+	}
+}
+div.inner img{
+	float: left;
+	width: 1200px;
+	height: 500px;
+}
+.show{
+	width:90%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.show h2{
+	margin:50px 0 20px 0;
+	text-align:center;
+	color:#F69;
+}
+.show .product{
+	width:20%;
+	height:400px;
+	padding-bottom:50px;
+	float:left;
+	overflow:hidden;
+}
+.show .product .product_main{
+	width:90%;
+	float:left;
+}
+.product_main img{
+	width:100%;
+	height:250px;
+	border:1px  gray;
+}
+.product_none{
+	float:right;
+	width:10%;
+}
+.product img:hover {
+	box-shadow: 5px 5px 5px  gray;
+}
+.price{
+	float:left;
+	color:rgb(255,51,102);
+	font-size:20px;
+}
+.collect{
+	float:right;
+}
+.collect a{
+	color:#999;
+}
+.collect a:HOVER{
+	color:#999;
+}
+.lcon_collect{
+	display:inline-block;
+	width:13px;
+	height:13px;
+	background:url(../images/product_collect.jpg) center no-repeat;
+	background-size:100%;
+}
+.name{
+	margin-top:30px;
+	color:black;
+	font-weight:400;
+	font-size:15px;
+}
+.lcon_perferred{
+	display:inline-block;
+	width:38px;
+	height:20px;
+	margin-right:4px;
+	background:url(../images/product_title.jpg) no-repeat center;
+	background-size:contain;
+}

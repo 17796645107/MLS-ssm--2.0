@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+.card{
+	width:90%;	
+	background:rgb(244,244,244);
+	padding:30px 5% 50px 5%;
+}
+.card_top input{
+	width:100px;
+	height:32px;	
+	background: black;
+	border:0;
+	border-radius:5px;
+	color:white;
+}
+.card_main{
+	width:90%;
+	background: white;
+	padding:35px;
+}
+.card_main .card_number{
+	width:26px;
+	height:27px;
+	background:white;
+	border:1px solid gray;
+	float: left;
+}
+.card_main .card_number_value{
+	width:40px;
+	height:27px;
+	background:white;
+	border:1px solid gray;
+	float:left;
+	text-align:center;
+}
+.card_main span{
+	color:rgb(255,51,102);
+}

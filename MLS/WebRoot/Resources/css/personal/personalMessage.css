@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.personal_message_head{
+	height:24px;
+	background: rgb(250,250,250);
+	padding:16px 0 0 16px;
+}
+.personal_message_head hr{
+	color:rgb(238,238,238);
+}
+form{
+	margin:40px 0 0 80px;	
+}
+form table{
+	font-size: 10px;
+	color:gray;
+}
+form table tr{
+	height:60px;
+}
+form input{
+	width:403px;
+	height:33px;
+	border: 1px solid rgb(221,221,221);
+}
+.personal_message_form_submit{
+	width:80px;
+	height:33px;
+	background: rgb(255,51,102);
+	border: 1px solid rgb(255,51,102);
+	color:white;
+}

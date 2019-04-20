@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	padding:35px;
+}
+.addbutton{
+	width:110px;
+	height: 33px;
+	border:0;
+	margin-top:15px;
+	background: url(http://s6.mogujie.cn/pic/130712/kuw9n_kqyvquklnjbdissugfjeg5sckzsew_115x32.png) no-repeat;
+}
+.address{
+	display: none;
+}
+.address_change{
+	margin-top:30px;
+	padding:40px;
+	width: 762px;
+	/* min-height: 363px; */
+	background: rgb(250,250,250);
+	border: 1px solid rgb(239,239,239);
+}
+.address_message{
+	margin-top:20px;
+	width: 762px;
+	height:50px;
+	background: rgb(250,250,250);
+	border: 1px solid rgb(239,239,239);
+}
+.address_message table td{
+	text-align: center;
+	font-size:13px;
+	line-height: 50px;
+}
+.address_message a{
+	color:#2f63cf;
+}
+.address_message a:HOVER {
+	text-decoration: underline;
+}
